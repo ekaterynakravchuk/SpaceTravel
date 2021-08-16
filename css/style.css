@@ -139,3 +139,25 @@ button {
 .header__description-text + .header__description-text {
     margin-left: 52px;
 }
+/* about */
+.about {
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    font-family: 'spaceagecyrillic';
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    padding: 100px 0;
+}
+.about__item {
+    display: flex;
+    padding-bottom: 150px;
+}
+.about__img {
+    width: 500px;
+    margin-right: 100px;
+}
