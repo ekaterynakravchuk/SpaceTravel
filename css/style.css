@@ -248,11 +248,46 @@ button {
 .how-to__box {
     text-align: center;
 }
-.how-to__box circle {
+.how-to__box circle, text, foreignObject {
     transition: all .5s;
     cursor: pointer;
+    font-size: 18px;
 }
-.how-to__box circle:hover {
+foreignObject {
+    text-align: left;
+}
+.how-to__box g:hover circle {
     r: 20px;
     fill: #036CCA;
+}
+.how-to__box g:hover text {
+    font-size: 36px;
+    fill: #036CCA;
+}
+.how-to__box g:hover foreignObject {
+    font-size: 22px;
+    color: #036CCA;
+}
+/* to-book */
+.to-book {
+    background-image: url(../images/to-book-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.to-book__inner {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.to-book__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.to-book__content-text {
+    width: 165px;
+}
+.to-book__content-text + .to-book__content-text {
+    margin-left: 53px;
 }
