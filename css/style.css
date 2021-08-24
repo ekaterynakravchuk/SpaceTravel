@@ -291,3 +291,110 @@ foreignObject {
 .to-book__content-text + .to-book__content-text {
     margin-left: 53px;
 }
+/* special-offer */
+.info {
+    background-image: url(../images/special-offer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 100px;
+}
+.special-offer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.special-offer__inner-item {
+    width: 500px;
+    min-height: 400px;
+}
+.special-offer__inner-box {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin-bottom: 25px;
+    padding: 40px 75px;
+    text-align: center;
+}
+.special-offer__inner-text {
+    width: 236px;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 auto;
+}
+.special-offer__inner-text span {
+    color: #CB0E0E;
+}
+.special-offer__new-price {
+    font-size: 48px;
+    line-height: 57px;
+}
+.special-offer__old-price {
+    text-align: right;
+    margin-bottom: 16px;
+    position: relative;
+}
+.special-offer__old-price::before {
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    background-color: #CB0E0E;
+    top: 7px;
+    right: -1px;
+    transform: rotate(17deg)
+}
+.special-offer__btn {
+    width: 100%;
+}
+/* extra-service */
+.extra-service {
+    padding-bottom: 200px;
+}
+.extra-service__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.extra-service__text, .extra-service__list {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 25px;
+}
+.extra-service__list {
+    list-style: none;
+}
+.extra-service__item {
+    padding-left: 35px;
+    position: relative;
+}
+.extra-service__item::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 5px;
+    left: 0;
+}
+.extra-service__subtext {
+    font-size: 12px;
+    line-height: 14px;
+}
+.extra-service__buttons {
+    width: 500px;
+}
+.extra-service__btn {
+    width: 100%;
+    position: relative;
+}
+.extra-service__img {
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+}
+.extra-service__btn + .extra-service__btn {
+    margin-top: 50px;
+}
